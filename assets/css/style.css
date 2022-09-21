@@ -51,7 +51,11 @@ body {
     justify-content: center;
     align-items: center;
     border: 2px solid #a6a6a6;
-    /* transform: rotate(90deg); */
+    transform: rotateY(90deg); 
+}
+
+.back {
+    background-color: #333;
 }
 
 img {
@@ -59,7 +63,31 @@ img {
     width: 100px;
 }
 
+.flip {
+    transform: rotateY(0deg);
+}
 
+.match {
+    transform: rotateY(0deg);
+}
+
+.show {
+    transform: rotateY(0deg);
+}
+
+@media screen and (min-width: 770px){
+.head {
+    max-width: 760;
+}
+
+.container {
+    grid-template-columns: repeat(4, auto);
+}
+
+.cell div {
+    height: 170px
+}
+}
 
 
 
