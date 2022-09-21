@@ -1,20 +1,20 @@
 const card = document.querySelectorAll('.cell')
 const front = document.querySelectorAll('.front')
 const container = document.querySelector('.container')
-const score = document.querySelector(' .score span')
+const score = document.querySelector('.score span') 
 
 
 
-suffleImage()
-clicking()
-function suffleImage(){
+shuffleImage()
+clicking() 
+function shuffleImage(){
 
 
     
     card.forEach(c=>{
 
         const num = [...Array(card.length).keys()]
-        const random = Match.floor(Math.random()*card.length)
+        const random = Math.floor(Math.random()*card.length)
         c.style.order = num[random]
     })    
 
@@ -34,9 +34,9 @@ function clicking(){
         card[i].addEventListener('click' ,()=>{
 
             front[i].classList.add('flip')
-           const filppedCard = document.querySelectorAll('.flip')
+           const flippedCard = document.querySelectorAll('.flip')
 
-          if (filppedCard.length == 2){
+          if (flippedCard.length == 2){
 
             container.style.pointerEvents ='none'
 
@@ -45,7 +45,7 @@ function clicking(){
                 container.style.pointerEvents ='all'
             }, 1000);
 
-            match(filppedCard[0] , filppedCard[1])
+            match(flippedCard[0] , flippedCard[1])
           } 
 
         })
