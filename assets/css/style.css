@@ -39,9 +39,9 @@ h1 {
     max-width: 960px;
     display: grid;
     grid-template-columns: repeat(3, auto);
-    gap: 1rem;
+    gap: 5px;
     margin: auto;
-    padding: 20px;
+    padding: 10px;
 }
 
 .cell div {
@@ -71,8 +71,8 @@ h1 {
 }
 
 img {
-    height: 155px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
 }
 
 .flip {
@@ -86,6 +86,28 @@ img {
 .show {
     transform: rotateY(0deg);
 }
+
+/* Footer and social media icons */
+footer {
+	position: center;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	height: 50px;
+	color: #FFF;
+}
+
+.social-icons {
+	color: #FFF;
+	font-size: 2rem;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.social-icons:hover {
+	color: #FFD700;
+}
+
 
 @media screen and (min-width: 770px){
 .head {
