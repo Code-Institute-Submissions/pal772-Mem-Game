@@ -32,8 +32,8 @@ h1 {
 }
 
 .score {
-    font-size: 30px;
-    margin-top: 10px;
+    font-size: 20px;
+    margin-top: 30px;
 }
 
 .container {
@@ -74,6 +74,7 @@ h1 {
 img {
     height: 120px;
     width: 105px;
+    size: 100vh;
 }
 
 .flip {
@@ -122,6 +123,7 @@ footer {
 img {
     height: 100px;
     width: 105px;
+    size: 100vh;
 }
 
 
