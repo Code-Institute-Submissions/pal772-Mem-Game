@@ -22,7 +22,7 @@ h1 {
 }
 
 .head {
-    max-width: 350px;
+    max-width: 310px;
     border: 5px solid #a6a6a6;
     margin: auto;
     height: 140px;
@@ -43,7 +43,7 @@ h1 {
  /* game layout */
 
 .container {
-    max-width: 960px;
+    max-width: 900px;
     display: grid;
     grid-template-columns: repeat(3, auto);
     gap: 10px;
@@ -78,8 +78,8 @@ h1 {
 }
 
 img {
-    width: 110%;
-    height: 80%;
+    width: 110px;
+    height: 100%;
 }
 
 .flip {
@@ -95,8 +95,9 @@ img {
 }
 
 /* Footer and social media icons */
+
+
 footer {
-	position: center;
 	bottom: 0;
 	width: 100%;
 	text-align: center;
@@ -118,7 +119,7 @@ footer {
 
 @media screen and (min-width: 770px){
 .head {
-    max-width: 760;
+    max-width: 300px;
 }
 
 .container {
