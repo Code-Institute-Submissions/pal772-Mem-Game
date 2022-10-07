@@ -26,19 +26,19 @@ allowing a user to actively engage with visual images.
 *   [Technology](#technology)
     *   [Languages used](#languages-used)
     *   [Frameworks, libraries & software used](#languages-used)
-*   [Testing](#testing)
+    *   [Testing](#testing)
     *   [Performance](#performance)
     *   [Validation](#validation)
     *   [HTML](#html)
     *   [CSS](#css)
     *   [JavaScript](#javascript)
+    *   [Bugs/known issues](#bugsknown-issues)
     *   [Browser compatibility](#browser-compatibility)
     *   [Platforms/devices](#platformsdevices)
-    *   [Bugs/known issues](#bugsknown-issues)
     *   [Responsiveness](#responsiveness)
     *   [Peer review](#peer-review)
-*   [Deployment](#deployment)
-*   [Credits](#credits)
+    *   [Deployment](#deployment)
+    *   [Credits](#credits)
     *   [Code](#code)
     *   [Media](#media)
     *   [Acknowledgements](#acknowledgements)
@@ -158,8 +158,44 @@ Result for HTML Checker
 
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)  - validation service used.
 
+- First Test<br>The first error on line 99, was not needed. so i ended upp deleting it
+The second error on line 121, i forgot to put 'px' after the value. so i ended up 
+changing it to 300px. And that worked perfect.
 
 ![Validator CSS](assets/readme-images/w3c-error.png)
+
+- No errors found on the second test.
+
+![Validator CSS](assets/readme-images/w3c-checker-pass.png)
+
+### JavaScript 
+
+- [JS Hint](https://jshint.com/) - validation service used.
+
+- Found 20 errors in my javascript test. Which obviously need sorting out.
+
+![JS Hint](assets/readme-images/jshint-errors.png)
+
+
+- Application was tested manually for bugs and errors during throught development process. All console.log messages have been removed before app release.
+
+![console.log](assets/readme-images/console-test.png)
+
+##   Browser compatibility
+
+Website was tested manually on following browsers: Google Chrome, Firefox, Safari. The results were satisfactory on all browsers. 
+
+##   Platforms/devices
+
+Website was tested manually on Apple Iphone X, Apple iphone 6/7/8 plus, Apple iPad, Apple Macbook Air, Samsung galaxy A51/71. The results were satisfactory and proved to be good responsiveness on all screen sizes.
+
+## Responsiveness
+
+I confirmed that this website is responsive and all the functions are displayed correctly.
+
+
+
+
 
 
 
