@@ -135,10 +135,8 @@ It has 4 boxes along and 3 down, with a total of 12 hidden car images.
 ##  Languages used
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
--   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 -   [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
--   [Markdown](https://en.wikipedia.org/wiki/Markdown)  
-    Markup language used to write this document.
     
 ##  Frameworks, libraries & software used
 
@@ -156,7 +154,7 @@ It has 4 boxes along and 3 down, with a total of 12 hidden car images.
 
 - [Lighthouse](https://developers.google.com/web) - Google WebDev tool used for performance/accesibility testing.  
 
-- [Favicon.io](https://www.favicon.io) - Tool used to create favicon.
+- [Favicon.io](https://www.favicon.io) - Tool used to create favicon.<br>I choose a thinking bubble image for my URL/website icon.
 
 ## Lighthouse
 
