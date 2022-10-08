@@ -19,6 +19,7 @@ allowing a user to actively engage with visual images.
     *   [Strategy/Scope](#strategyscope)
     *   [Site owner goals](#site-owner-goals)
     *   [Site user goals](#user-goals)
+    *   [Features](#features)
 *   [User Experience (UX/UI)](#user-experience-ux)
     *   [Colour Scheme](#colour-scheme)
     *   [Typography](#typography)
@@ -27,6 +28,7 @@ allowing a user to actively engage with visual images.
     *   [Languages used](#languages-used)
     *   [Frameworks, libraries & software used](#languages-used)
     *   [Testing](#testing)
+    *   [Lighthouse](#lighthouse)
     *   [Performance](#performance)
     *   [Validation](#validation)
     *   [HTML](#html)
@@ -80,6 +82,23 @@ This Car Memory Game is an entertainment app intended for anyone who wants to te
     - Also have to concentrate on a visual level. 
     - Enjoy the game.
     - Follow the developer on social media.
+
+## Features
+
+  - Has a main title at the top of the page.
+  - Underneath the title is the score.
+  - There are 12 boxes, and in each box has an image of 6 diffrent cars.
+  - You have to click on a box at a time to reveal an image. 
+  - Only 2 boxes can be clicked at a time, to reveal an image.
+  - If wrong, they will flip back over and disappear.
+  - 2 images are the same, which need to be paired up to score a point.
+  - The images are of cars, which i'm a big fan of.
+  - The cars are only silver or red, which makes the game a bit more difficult. 
+  - The user needs to concentrate to pair up all the same cars to complete the game.
+  - There are two links at the bottom of the page.
+  - One is for my github page.
+  - The other one is for my LinkedIn page.
+   
 
 #   User Experience (UX)
 
@@ -139,9 +158,13 @@ It has 4 boxes along and 3 down, with a total of 12 hidden car images.
 
 - [Favicon.io](https://www.favicon.io) - Tool used to create favicon.
 
-##   Performance
+## Lighthouse
 
  [Lighthouse](https://developers.google.com/web) - Google webdev tool used for performance testing showing just below maximum score.
+
+![Lighthouse](assets/readme-images/lighthouse.png)
+
+## Performance
 
 ![Lighthouse](assets/readme-images/performance.png)
 
@@ -170,8 +193,6 @@ Result for HTML Checker
   I'll look into that, with more detail and get that fixed in the future. 
 
 ![JS Hint](assets/readme-images/jshint.png)
-
-
 
 ##   Bugs/known issues
 
