@@ -158,13 +158,7 @@ Result for HTML Checker
 
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)  - validation service used.
 
-- First Test<br>The first error on line 99, was not needed. so i ended upp deleting it
-The second error on line 121, i forgot to put 'px' after the value. so i ended up 
-changing it to 300px. And that worked perfect.
-
-![Validator CSS](assets/readme-images/w3c-error.png)
-
-- No errors found on the second test.
+- No errors found on my final test.
 
 ![Validator CSS](assets/readme-images/w3c-checker-pass.png)
 
@@ -172,14 +166,45 @@ changing it to 300px. And that worked perfect.
 
 - [JS Hint](https://jshint.com/) - validation service used.
 
-- Found 20 errors in my javascript test. Which obviously need sorting out.
+- Final test, had 2 warnings.
+  I'll look into that, with more detail and get that fixed in the future. 
 
-![JS Hint](assets/readme-images/jshint-errors.png)
+![JS Hint](assets/readme-images/jshint.png)
 
+
+
+##   Bugs/known issues
+
+### HTML
+
+There were no bugs found when i put it through the HTML checker.
+
+### CSS
+
+- First Test<br>The first error on line 99, was fixed by deleting the line completly.
+The second error on line 121, i forgot to put 'px' after the value. So changed 
+the value to 300 and also added the px, which worked perfect.
+
+![Validator CSS](assets/readme-images/w3c-error.png)
 
 - Application was tested manually for bugs and errors during throught development process. All console.log messages have been removed before app release.
 
 ![console.log](assets/readme-images/console-test.png)
+
+### Java script
+
+- Found 20 errors in my javascript test. Which obviously got fixed.
+- Ended up with 2 warnings<br>'Function declared within loops referencing an outer scoped variable
+may lead to confusing semantics'.<br> I'll look into that with more detail in the future.
+
+![JS Hint](assets/readme-images/jshint-errors.png)
+
+
+
+
+
+
+
 
 ##   Browser compatibility
 
