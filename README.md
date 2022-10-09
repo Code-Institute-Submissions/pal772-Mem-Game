@@ -255,7 +255,7 @@ The project was deployed to GitHub Pages using the following steps:
 
 ## Code
 
--   Mentor - Sammy Dartnall helped me with warnings i had on my JavaScript testing.
+- Mentor - Sammy Dartnall helped me fix warnings on my JavaScript testing.
 (use 'esversion: 6') or Mozilla JS extensions.<br>Got fixed by clicking on "configure" and scroll down to the bottom of the page and selecting "Mozilla JavaScript extentions".
 
 ## Media
@@ -277,8 +277,8 @@ Content
 
 ##  Acknowledgements
 
--   My Sammy Dartnell for helpful feedback and guidance on stages of the project. 
--   Code Institute Slack Community for being a great knowledge base.
+- My Mentor Sammy Dartnell for helpful feedback and guidance on stages of the project. 
+- Code Institute Slack Community for being a great knowledge base.
 
 
 

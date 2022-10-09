@@ -1,16 +1,17 @@
+// Wait for the DOM to finish loading before running the game
+
 const card = document.querySelectorAll('.cell');
 const front = document.querySelectorAll('.front');
 const container = document.querySelector('.container');
 const score = document.querySelector('.score span');
 
-
-
+// Shuffle images
 shuffleImage();
 clicking();
 function shuffleImage(){
 
 
-    
+// const num and random cards  
     card.forEach(c=>{
 
         const num = [...Array(card.length).keys()];
@@ -20,6 +21,8 @@ function shuffleImage(){
 
 }
 
+/** clicking on cards to show image  */
+/** EventListener when clicked. Flip baack over if not right */
 
 function clicking(){
 
@@ -52,7 +55,8 @@ function clicking(){
     }
 }
 
-
+/** if two cards match, stay shown */
+/** if not flip back over in a certain time */
 function match(cardOne, cardTwo){
 
     if(cardOne.dataset.index == cardTwo.dataset.index){
