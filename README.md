@@ -29,7 +29,6 @@ allowing a user to actively engage with visual images.
     *   [Frameworks, libraries & software used](#languages-used)
     *   [Testing](#testing)
     *   [Lighthouse](#lighthouse)
-    *   [Performance](#performance)
     *   [Validation](#validation)
     *   [HTML](#html)
     *   [CSS](#css)
@@ -43,9 +42,8 @@ allowing a user to actively engage with visual images.
     *   [Credits](#credits)
     *   [Code](#code)
     *   [Media](#media)
+    *   [Learning-Resorces](#learning-resources)
     *   [Acknowledgements](#acknowledgements)
-
-
 
 #   Project
 ##  Strategy/Scope
@@ -54,7 +52,7 @@ This Car Memory Game is an entertainment app intended for anyone who wants to te
 
 <br>
 
- The content is presented on a single page that display's car images depending on the user action. The <b>Primary goal</b> Is to get the user's visual attention, for them to concentrate and focus. <b>The secondary objective</b> Is to entertain the user during the game. With this in mind the website's design provides visual images of cars. 
+ The content is presented on a single page that display's car images depending on the user's action.<br>The <b>Primary goal</b> is to get the user's visual attention, for them to concentrate and focus.<br>The<b> secondary objective</b> is to entertain the user during the game. With this in mind the website's design provides visual images of cars. 
 
  To achieve the games intension, I implemented following features:
 
@@ -95,10 +93,7 @@ This Car Memory Game is an entertainment app intended for anyone who wants to te
   - The images are of cars, which i'm a big fan of.
   - The cars are only silver or red, which makes the game a bit more difficult. 
   - The user needs to concentrate to pair up all the same cars to complete the game.
-  - There are two links at the bottom of the page.
-  - One is for my github page.
-  - The other one is for my LinkedIn page.
-   
+  - There are two links at the bottom of the page, my github and LinkedIn page.
 
 #   User Experience (UX)
 
@@ -124,9 +119,9 @@ I also choose only 2 different colour cars, so that the user has to concemtrate 
 
 ##  Structure
 
-The main page is designed in a very simple way and easy to use. So that the user understands straight 
-away how to play the game.
-It has 4 boxes along and 3 down, with a total of 12 hidden car images. 
+The main page is designed in a very simple way and easy to use. So the user understands straight 
+away how to play the game.<br>It has 12 boxes in total, with 6 diffrent car images, 2 two images 
+the same which needs to be pair up.
 
 ![stucture](assets/readme-images/structure.png)
 
@@ -148,23 +143,20 @@ It has 4 boxes along and 3 down, with a total of 12 hidden car images.
 
 - [GitPod](https://www.gitpod.io) - Used to code the project.
 
-- [Yahoo images](https://uk.images.search.yahoo.com/search/images/porsche;) - Yahoo was used to sourse the images for this game.
+- [Yahoo images](https://uk.images.search.yahoo.com/search/images/porsche) - Yahoo was used to source the images for this project.
 
 - [Am I Responsive](https://ui.dev/amiresponsive) - Online tool used to create mockup to present responsive design of this project.
 
 - [Lighthouse](https://developers.google.com/web) - Google WebDev tool used for performance/accesibility testing.  
 
-- [Favicon.io](https://www.favicon.io) - Tool used to create favicon.<br>I choose a thinking bubble image for my URL/website icon.
+- [Favicon.io](https://www.favicon.io) - Used favicon.<br>I choose a thinking bubble image for my URL/website icon.
 
 ## Lighthouse
 
- [Lighthouse](https://developers.google.com/web) - Google webdev tool used for performance testing showing just below maximum score.
+ [Lighthouse](https://developers.google.com/web) - Used Google DevTools to check on the 
+ games performance, accessibility, best practices and SEO.
 
 ![Lighthouse](assets/readme-images/lighthouse.png)
-
-## Performance
-
-![Lighthouse](assets/readme-images/performance.png)
 
 ## Validation
 
@@ -178,8 +170,6 @@ Result for HTML Checker
 ### CSS
 
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)  - validation service used.
-
-- No errors found on my final test.
 
 ![Validator CSS](assets/readme-images/w3c-checker-pass.png)
 
@@ -212,18 +202,19 @@ the value to 300 and also added the px, which worked perfect.
 
 ### Java script
 
-- Found 20 errors in my javascript test. Which obviously got fixed.
-- Ended up with 2 warnings<br>'Function declared within loops referencing an outer scoped variable
-may lead to confusing semantics'.<br> I'll look into that with more detail in the future.
+- Found 20 warnings when testing javaScript code.
+- Some were simple, missing semicolons.
+- Ended up with 2 warnings - <br>"Function declared within loops referencing an outer scoped variable
+may lead to confusing semantics".<br> I'll look into that with more detail in the future.
 
 ![JS Hint](assets/readme-images/jshint-errors.png)
 
+### Lighthouse
 
+- For future reference - Performance can be improved by image size and render-blocking.
+- For future reference - Best practices, improve on displaying images with correct aspect ratio.
 
-
-
-
-
+![Lighthouse](assets/readme-images/lighthouse.png)
 
 ##   Browser compatibility
 
@@ -237,9 +228,57 @@ Website was tested manually on Apple Iphone X, Apple iphone 6/7/8 plus, Apple iP
 
 I confirmed that this website is responsive and all the functions are displayed correctly.
 
+![Responsive](assets/readme-images/responsive1.png)
+
+## Peer review
+
+I asked my friends and coleagues to test the application and I received a lot of positive feedback, no major 
+issues were reported.
+For future reference need to improve image quality and size. And add levels and a timer.
 
 
+#   Deployment
 
+The project was deployed to GitHub Pages using the following steps:  
+
+1. Log in to GitHub and locate the [mem-game](https://github.com/pal772/Mem-Game) repository. 
+2. Locate the "Settings" Button on the menu.
+3. Scroll down the Settings page until you locate the "Pages" in "Code and automation" section.
+4. Under "Source", click the dropdown called "Select branch:" and select "Main", click the dropdown called "Select folder" and select "/root".
+5. The page will automatically refresh and you receive message "Your site is published at https://pal772.github.io/Mem-Game/". Result below: 
+
+![Deployment](assets/readme-images/deployment.png)
+
+<br>
+
+#   Credits
+
+## Code
+
+-   Mentor - Sammy Dartnall helped me with warnings i had on my JavaScript testing.
+(use 'esversion: 6') or Mozilla JS extensions.<br>Got fixed by clicking on "configure" and scroll down to the bottom of the page and selecting "Mozilla JavaScript extentions".
+
+## Media
+
+Content
+
+- [Yahoo images](https://uk.images.search.yahoo.com/search/images/porsche) - All images sourced from Yahoo.
+- [Favicon.io](https://www.favicon.io) - Used favicon to choose my URL/website icon.
+- [font awesome](https://fontawesome.com/) - Icons used on the footer.
+- [google fonts](https://fonts.google.com/) - Fonts used on this project.
+- [am i responsive](https://ui.dev/amiresponsive) - Main image used on Preview README.md
+
+
+## Learning resources
+
+- [Code Institute course and learning platform](https://codeinstitute.net/)
+- [W3Schools](https://www.w3schools.com/js/default.asp)
+- [Youtube](https://www.youtube.com/)
+
+##  Acknowledgements
+
+-   My Sammy Dartnell for helpful feedback and guidance on stages of the project. 
+-   Code Institute Slack Community for being a great knowledge base.
 
 
 
